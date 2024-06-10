@@ -1,0 +1,232 @@
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    color: #EEEEEE;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: linear-gradient(0, #120c56, #000000);
+    background-repeat: no-repeat;
+    height: 100vh; 
+  
+      
+}
+.stars {
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 
+    50px 30px rgba(255, 255, 255, 0.7),
+        100px 80px rgba(255, 255, 255, 0.7),
+        80px 120px rgba(255, 255, 255, 0.7),
+        300px 20px rgba(255, 255, 255, 0.7),
+        250px 130px rgba(255, 255, 255, 0.7),
+        200px 50px rgba(255, 255, 255, 0.7),
+        150px 100px rgba(255, 255, 255, 0.7),
+        320px 100px rgba(255, 255, 255, 0.7),
+        /* Adicionando mais estrelas */
+        30px 60px rgba(255, 255, 255, 0.7),
+        150px 20px rgba(255, 255, 255, 0.7),
+        280px 80px rgba(255, 255, 255, 0.7),
+        50px 200px rgba(255, 255, 255, 0.7),
+        200px 160px rgba(255, 255, 255, 0.7),
+        280px 250px rgba(255, 255, 255, 0.7),
+        400px 300px rgba(255, 255, 255, 0.7),
+        20px 360px rgba(255, 255, 255, 0.7),
+        100px 420px rgba(255, 255, 255, 0.7),
+        300px 390px rgba(255, 255, 255, 0.7),
+        380px 430px rgba(255, 255, 255, 0.7),
+        450px 370px rgba(255, 255, 255, 0.7),
+        /* Adicione mais estrelas conforme necessário */
+        80px 260px rgba(255, 255, 255, 0.7),
+        360px 150px rgba(255, 255, 255, 0.7),
+        120px 320px rgba(255, 255, 255, 0.7),
+        220px 400px rgba(255, 255, 255, 0.7),
+        400px 50px rgba(255, 255, 255, 0.7),
+        30px 170px rgba(255, 255, 255, 0.7),
+        200px 220px rgba(255, 255, 255, 0.7),
+        430px 280px rgba(255, 255, 255, 0.7),
+        180px 380px rgba(255, 255, 255, 0.7),
+        380px 180px rgba(255, 255, 255, 0.7),
+        50px 350px rgba(255, 255, 255, 0.7),
+        320px 340px rgba(255, 255, 255, 0.7),
+        270px 70px rgba(255, 255, 255, 0.7),
+        100px 280px rgba(255, 255, 255, 0.7),
+        350px 30px rgba(255, 255, 255, 0.7),
+        230px 420px rgba(255, 255, 255, 0.7),
+        420px 160px rgba(255, 255, 255, 0.7),
+        160px 240px rgba(255, 255, 255, 0.7),
+        260px 380px rgba(255, 255, 255, 0.7),
+        410px 250px rgba(255, 255, 255, 0.7),
+        70px 110px rgba(255, 255, 255, 0.7),
+        140px 390px rgba(255, 255, 255, 0.7),
+        300px 210px rgba(255, 255, 255, 0.7),
+        240px 130px rgba(255, 255, 255, 0.7),
+        190px 30px rgba(255, 255, 255, 0.7),
+        20px 210px rgba(255, 255, 255, 0.7),
+        130px 360px rgba(255, 255, 255, 0.7),
+        390px 90px rgba(255, 255, 255, 0.7),
+        80px 420px rgba(255, 255, 255, 0.7),
+        370px 310px rgba(255, 255, 255, 0.7),
+        420px 420px rgba(255, 255, 255, 0.7),
+        150px 50px rgba(255, 255, 255, 0.7),
+        320px 180px rgba(255, 255, 255, 0.7),
+        90px 290px rgba(255, 255, 255, 0.7),
+        240px 350px rgba(255, 255, 255, 0.7),
+        180px 100px rgba(255, 255, 255, 0.7),
+        60px 180px rgba(255, 255, 255, 0.7),
+        410px 20px rgba(255, 255, 255, 0.7),
+        140px 220px rgba(255, 255, 255, 0.7),
+        280px 40px rgba(255, 255, 255, 0.7),
+        380px 480px rgba(255, 255, 255, 0.7),
+        480px 200px rgba(255, 255, 255, 0.7),
+        400px 390px rgba(255, 255, 255, 0.7),
+        200px 420px rgba(255, 255, 255, 0.7),
+        390px 260px rgba(255, 255, 255, 0.7),
+        220px 120px rgba(255, 255, 255, 0.7),
+        30px 390px rgba(255, 255, 255, 0.7),
+        290px 420px rgba(255, 255, 255, 0.7),
+        420px 320px rgba(255, 255, 255, 0.7),
+        120px 260px rgba(255, 255, 255, 0.7),
+        310px 200px rgba(255, 255, 255, 0.7),
+        190px 350px rgba(255, 255, 255, 0.7),
+        360px 80px rgba(255, 255, 255, 0.7),
+        240px 300px rgba(255, 255, 255, 0.7),
+        430px 230px rgba(255, 255, 255, 0.7),
+        330px 170px rgba(255, 255, 255, 0.7),
+        260px 10px rgba(255, 255, 255, 0.7),
+        170px 320px rgba(255, 255, 255, 0.7),
+        60px 40px rgba(255, 255, 255, 0.7),
+        410px 400px rgba(255, 255, 255, 0.7),
+        380px 10px rgba(255, 255, 255, 0.7),
+        20px 100px rgba(255, 255, 255, 0.7),
+        130px 220px rgba(255, 255, 255, 0.7),
+        250px 10px rgba(255, 255, 255, 0.7),
+        390px 340px rgba(255, 255, 255, 0.7),
+        220px 280px rgba(255, 255, 255, 0.7),
+        40px 350px rgba(255, 255, 255, 0.7),
+        310px 80px rgba(255, 255, 255, 0.7),
+        90px 220px rgba(255, 255, 255, 0.7),
+        350px 300px rgba(255, 255, 255, 0.7),
+        260px 420px rgba(255, 255, 255, 0.7),
+        480px 150px rgba(255, 255, 255, 0.7),
+        200px 360px rgba(255, 255, 255, 0.7),
+        310px 420px rgba(255, 255, 255, 0.7),
+        120px 180px rgba(255, 255, 255, 0.7),
+        370px 260px rgba(255, 255, 255, 0.7),
+        70px 390px rgba(255, 255, 255, 0.7),
+        230px 160px rgba(255, 255, 255, 0.7),
+        320px 40px rgba(255, 255, 255, 0.7),
+        160px 300px rgba(255, 255, 255, 0.7),
+        440px 80px rgba(255, 255, 255, 0.7),
+        210px 10px rgba(255, 255, 255, 0.7),
+        110px 140px rgba(255, 255, 255, 0.7),
+        370px 130px rgba(255, 255, 255, 0.7),
+        40px 120px rgba(255, 255, 255, 0.7),
+        480px 360px rgba(255, 255, 255, 0.7),
+        290px 10px rgba(255, 255, 255, 0.7),
+        200px 80px rgba(255, 255, 255, 0.7),
+        430px 350px rgba(255, 255, 255, 0.7),
+        160px 70px rgba(255, 255, 255, 0.7),
+        290px 180px rgba(255, 255, 255, 0.7),
+        70px 240px rgba(255, 255, 255, 0.7),
+        480px 420px rgba(255, 255, 255, 0.7),
+        380px 310px rgba(255, 255, 255, 0.7),
+        180px 400px rgba(255, 255, 255, 0.7),
+        20px 30px rgba(255, 255, 255, 0.7),
+        340px 130px rgba(255, 255, 255, 0.7),
+        440px 10px rgba(255, 255, 255, 0.7),
+        120px 290px rgba(255, 255, 255, 0.7),
+        390px 70px rgba(255, 255, 255, 0.7),
+        200px 150px rgba(255, 255, 255, 0.7),
+        450px 200px rgba(255, 255, 255, 0.7),
+        310px 350px rgba(255, 255, 255, 0.7),
+        30px 100px rgba(255, 255, 255, 0.7),
+        230px 380px rgba(255, 255, 255, 0.7),
+        410px 110px rgba(255, 255, 255, 0.7),
+        130px 10px rgba(255, 255, 255, 0.7),
+        350px 220px rgba(255, 255, 255, 0.7),
+        250px 90px rgba(255, 255, 255, 0.7),
+        100px 330px rgba(255, 255, 255, 0.7),
+        370px 370px rgba(255, 255, 255, 0.7),
+        220px 240px rgba(255, 255, 255, 0.7),
+        80px 310px rgba(255, 255, 255, 0.7),
+        410px 260px rgba(255, 255, 255, 0.7),
+        140px 460px rgba(255, 255, 255, 0.7),
+        390px 180px rgba(255, 255, 255, 0.7),
+        200px 270px rgba(255, 255, 255, 0.7),
+        470px 60px rgba(255, 255, 255, 0.7),
+        290px 430px rgba(255, 255, 255, 0.7),
+        10px 140px rgba(255, 255, 255, 0.7),
+        330px 390px rgba(255, 255, 255, 0.7),
+        160px 210px rgba(255, 255, 255, 0.7),
+        400px 240px rgba(255, 255, 255, 0.7),
+        260px 150px rgba(255, 255, 255, 0.7),
+        20px 410px rgba(255, 255, 255, 0.7),
+        450px 120px rgba(255, 255, 255, 0.7),
+        370px 10px rgba(255, 255, 255, 0.7),
+        130px 360px rgba(255, 255, 255, 0.7),
+        60px 260px rgba(255, 255, 255, 0.7),
+        340px 50px rgba(255, 255, 255, 0.7),
+        440px 280px rgba(255, 255, 255, 0.7),
+        250px 330px rgba(255, 255, 255, 0.7),
+        190px 460px rgba(255, 255, 255, 0.7),
+        370px 190px rgba(255, 255, 255, 0.7),
+        70px 20px rgba(255, 255, 255, 0.7),
+        420px 390px rgba(255, 255, 255, 0.7),
+        300px 50px rgba(255, 255, 255, 0.7),
+        80px 170px rgba(255, 255, 255, 0.7),
+        320px 260px rgba(255, 255, 255, 0.7),
+        170px 40px rgba(255, 255, 255, 0.7),
+        460px 340px rgba(255, 255, 255, 0.7);
+    
+   
+    animation: anim-stars 30s linear infinite;
+}
+
+
+.container {
+    color: #ffffff;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s;
+    margin: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
