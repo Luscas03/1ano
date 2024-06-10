@@ -123,7 +123,7 @@ function showResult() {
     resultContainer.style.height = "100%";
     resultContainer.style.backgroundColor = "#000000";
     resultContainer.style.color = "#fffff";
-    resultContainer.style.fontSize = "5rem";
+    resultContainer.style.fontSize = "3rem";
     resultContainer.textContent = `Parabéns! Você acertou ${score} de ${questions.length} perguntas. Receba seu presente!`;
 }
 
